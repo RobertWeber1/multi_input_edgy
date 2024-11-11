@@ -468,301 +468,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_LED:CL220K4-G"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CL220K4-G"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf"
-				(at 0.254 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature Compensated Constant Current LED IC, D-PAK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Constant Current LED Driver IC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?252*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL220K4-G_0_1"
-				(rectangle
-					(start -2.54 2.54)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 0.508) (xy -1.524 -0.508) (xy -0.508 -0.508) (xy -1.016 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -0.508) (xy -1.016 -2.032) (xy 1.016 -2.032) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.048) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.032)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.032)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.048) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy 1.016 2.032) (xy -1.016 2.032) (xy -1.016 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.762) (xy 1.016 -1.016) (xy 0.762 -0.508) (xy 1.27 -0.508) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.016 0.508)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 -0.508)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CL220K4-G_1_1"
-				(pin input line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "VB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Isolator:NSL-32"
 			(pin_names
 				(offset 0.762)
@@ -1660,6 +1365,243 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_stuff:AL5809"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.794 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AL5809"
+				(at 5.334 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_stuff:PowerDI-123"
+				(at -0.254 -25.908 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AL5809-15P1-7_C145092.pdf"
+				(at 1.016 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "60V Two Terminal Constant Current LED Driver"
+				(at -0.254 -29.972 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part#" "C145092"
+				(at 0.508 -32.258 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AL5809_0_1"
+				(rectangle
+					(start -2.54 -5.08)
+					(end 2.54 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -7.112) (xy -0.508 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy -1.524 -8.128) (xy -0.508 -8.128) (xy -1.016 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -8.128) (xy -1.016 -9.652) (xy 1.016 -9.652) (xy 1.016 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.588) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.588)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -9.652) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -9.652)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -6.35) (xy 1.016 -5.588) (xy -1.016 -5.588) (xy -1.016 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -6.858) (xy 1.016 -8.636) (xy 0.762 -8.128) (xy 1.27 -8.128) (xy 1.016 -8.636)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.016 -7.112)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 -8.128)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AL5809_1_1"
+				(pin input line
+					(at 0 -2.54 270)
+					(length 2.54)
+					(name "in"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2534,13 +2476,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 165.1) (xy 101.6 166.37)
+			(xy 101.6 166.37) (xy 101.6 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a74ca805-c563-466d-b7c9-c7d7e6bdcae7")
+		(uuid "9926c034-6bcf-45d7-8df4-91a63b587e78")
 	)
 	(wire
 		(pts
@@ -2757,109 +2699,6 @@
 			(justify right)
 		)
 		(uuid "af653879-1eb4-4901-bc3a-6dfc6aeccf30")
-	)
-	(symbol
-		(lib_id "Driver_LED:CL220K4-G")
-		(at 101.6 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b2aa10a-dd75-4af8-88fb-f8e682b14e68")
-		(property "Reference" "U3"
-			(at 105.41 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AL5809-15P"
-			(at 105.41 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AL5809-15P1-7_C145092.pdf"
-			(at 101.854 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature Compensated Constant Current LED IC, D-PAK"
-			(at 101.6 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C145092"
-			(at 101.6 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Text" ""
-			(at 101.6 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "40d1fb21-9295-4798-bda4-59a63e56e87a")
-		)
-		(pin "3"
-			(uuid "b84924f8-6b2f-4be1-bb22-7f9b5ff91400")
-		)
-		(pin "1"
-			(uuid "491363de-4ffd-465b-96bf-b331bc607c2f")
-		)
-		(instances
-			(project "multi_input_edgy"
-				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/036cff62-e137-4ca3-a5ab-ba4d49211600"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/4c9248e3-5311-42f4-8e48-146a566f42fa"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/bd25a8d3-cc96-44db-9ab7-a39e0aec573c"
-					(reference "U10")
-					(unit 1)
-				)
-				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/e6b33b4e-cb11-4e55-91b7-372c213eef5e"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3090,6 +2929,97 @@
 				)
 				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/e6b33b4e-cb11-4e55-91b7-372c213eef5e"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_stuff:AL5809")
+		(at 101.6 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168517af-de31-439f-bd80-2131dac17e51")
+		(property "Reference" "U9"
+			(at 105.41 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AL5809"
+			(at 105.41 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_stuff:PowerDI-123"
+			(at 101.346 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AL5809-15P1-7_C145092.pdf"
+			(at 102.616 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V Two Terminal Constant Current LED Driver"
+			(at 101.346 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C145092"
+			(at 102.108 184.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5165b0f-72b5-4b07-9b5b-c3426983585d")
+		)
+		(pin "2"
+			(uuid "ed7e5611-4880-425f-9877-6f997daba03e")
+		)
+		(instances
+			(project ""
+				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/036cff62-e137-4ca3-a5ab-ba4d49211600"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/4c9248e3-5311-42f4-8e48-146a566f42fa"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/bd25a8d3-cc96-44db-9ab7-a39e0aec573c"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/e6b33b4e-cb11-4e55-91b7-372c213eef5e"
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e085624-6f3f-4f75-a274-8ce38c4e0c0f")
-		(property "Reference" "Q8"
+		(property "Reference" "Q3"
 			(at 238.76 119.3799 0)
 			(effects
 				(font
@@ -3668,7 +3598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ebeb231-4dd9-480f-8c90-44d21b278286")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 113.284 139.192 0)
 			(effects
 				(font
@@ -3684,7 +3614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+		(property "Footprint" "lcsc_stuff:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 113.03 152.4 0)
 			(effects
 				(font
@@ -3756,101 +3686,6 @@
 				)
 				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/e6b33b4e-cb11-4e55-91b7-372c213eef5e"
 					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_LED:CL220K4-G")
-		(at 101.6 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "468c8bf1-508f-49e8-a40b-75865c0e549b")
-		(property "Reference" "U5"
-			(at 105.41 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AL5809-15P"
-			(at 105.41 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 105.41 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AL5809-15P1-7_C145092.pdf"
-			(at 101.854 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature Compensated Constant Current LED IC, D-PAK"
-			(at 101.6 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C145092"
-			(at 101.6 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64b15192-e820-4af9-af95-1f15c4eaaf94")
-		)
-		(pin "3"
-			(uuid "08ea150c-e31c-4918-8909-f7fe47e2c1f5")
-		)
-		(pin "1"
-			(uuid "963448ac-afba-4d3f-9405-7e85896a91a8")
-		)
-		(instances
-			(project "multi_input_edgy"
-				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/036cff62-e137-4ca3-a5ab-ba4d49211600"
-					(reference "U2")
-					(unit 1)
-				)
-				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/4c9248e3-5311-42f4-8e48-146a566f42fa"
-					(reference "U5")
-					(unit 1)
-				)
-				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/bd25a8d3-cc96-44db-9ab7-a39e0aec573c"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/e6b33b4e-cb11-4e55-91b7-372c213eef5e"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -4303,7 +4138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71e675b5-2c2d-40da-a173-cf6264617f66")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 238.76 110.8074 90)
 			(effects
 				(font
@@ -4603,7 +4438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+		(property "Footprint" "lcsc_stuff:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 113.03 72.39 0)
 			(effects
 				(font
@@ -4755,14 +4590,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Text" ""
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -5045,6 +4872,97 @@
 				)
 				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/e6b33b4e-cb11-4e55-91b7-372c213eef5e"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_stuff:AL5809")
+		(at 101.6 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be7d7017-3774-4105-be4f-7bd886f8b95a")
+		(property "Reference" "U2"
+			(at 105.41 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AL5809"
+			(at 105.41 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_stuff:PowerDI-123"
+			(at 101.346 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AL5809-15P1-7_C145092.pdf"
+			(at 102.616 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V Two Terminal Constant Current LED Driver"
+			(at 101.346 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C145092"
+			(at 102.108 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42300b24-d556-4689-815d-6dfda6407913")
+		)
+		(pin "2"
+			(uuid "9514b322-2788-4250-85c1-a4ef1e89e399")
+		)
+		(instances
+			(project ""
+				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/036cff62-e137-4ca3-a5ab-ba4d49211600"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/4c9248e3-5311-42f4-8e48-146a566f42fa"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/bd25a8d3-cc96-44db-9ab7-a39e0aec573c"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/6245d815-3a0a-4de6-9134-28f5571821de/2f847f2b-44e1-4b01-8806-4ee445d9979e/e6b33b4e-cb11-4e55-91b7-372c213eef5e"
+					(reference "U6")
 					(unit 1)
 				)
 			)
