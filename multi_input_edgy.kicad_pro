@@ -735,5 +735,8 @@
       "isolated_input3"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BoardName": "4xMultiInput",
+    "Version": "V1.1"
+  }
 }

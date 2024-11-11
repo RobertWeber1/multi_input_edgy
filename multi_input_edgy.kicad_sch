@@ -4,6 +4,11 @@
 	(generator_version "8.99")
 	(uuid "6245d815-3a0a-4de6-9134-28f5571821de")
 	(paper "A4")
+	(title_block
+		(title "${BoardName}")
+		(date "2024-11-11")
+		(rev "${Version}")
+	)
 	(lib_symbols
 		(symbol "74xGxx:SN74LVC1G125DBV"
 			(exclude_from_sim no)
@@ -2000,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 137.16) (xy 209.55 140.97)
+			(xy 210.82 137.16) (xy 210.82 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 124.46) (xy 209.55 127)
+			(xy 210.82 124.46) (xy 210.82 127)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2395,7 @@
 		(uuid "13f2462e-ca2f-4c7b-8bce-ae985c9daa62")
 	)
 	(label "upstream_miso"
-		(at 209.55 140.97 180)
+		(at 210.82 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2401,7 +2406,7 @@
 		(uuid "1a15c570-07a3-427a-8f7a-f4ed4811b28a")
 	)
 	(label "downstream_mosi"
-		(at 209.55 124.46 180)
+		(at 210.82 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2468,7 +2473,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 209.55 132.08 90)
+		(at 210.82 132.08 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2476,7 +2481,7 @@
 		(dnp no)
 		(uuid "0b463d95-753d-444f-8e69-5300668c8ce6")
 		(property "Reference" "JP1"
-			(at 210.82 130.8099 90)
+			(at 212.09 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2490,7 @@
 			)
 		)
 		(property "Value" "Terminate"
-			(at 210.82 133.3499 90)
+			(at 212.09 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2499,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 209.55 132.08 0)
+			(at 210.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 132.08 0)
+			(at 210.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2517,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 209.55 132.08 0)
+			(at 210.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2526,7 @@
 			)
 		)
 		(property "Text" ""
-			(at 209.55 132.08 0)
+			(at 210.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
