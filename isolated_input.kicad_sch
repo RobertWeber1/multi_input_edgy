@@ -4,6 +4,11 @@
 	(generator_version "8.99")
 	(uuid "75b419ba-83f9-4c6f-acb4-c0f0008ea8a5")
 	(paper "A4")
+	(title_block
+		(title "${BoardName}")
+		(date "2024-11-11")
+		(rev "${Version}")
+	)
 	(lib_symbols
 		(symbol "Device:LED"
 			(pin_numbers
@@ -563,7 +568,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.794 -2.54) (xy -5.08 -2.54)
+						(xy -2.794 -2.54) (xy -2.032 -2.54) (xy -2.032 2.54) (xy -2.794 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -575,7 +580,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.794 -2.54) (xy -2.032 -2.54) (xy -2.032 2.54) (xy -2.794 2.54)
+						(xy -2.794 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
 						(width 0.254)

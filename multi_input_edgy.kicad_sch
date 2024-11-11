@@ -4,6 +4,11 @@
 	(generator_version "8.99")
 	(uuid "6245d815-3a0a-4de6-9134-28f5571821de")
 	(paper "A4")
+	(title_block
+		(title "${BoardName}")
+		(date "2024-11-11")
+		(rev "${Version}")
+	)
 	(lib_symbols
 		(symbol "74xGxx:SN74LVC1G125DBV"
 			(exclude_from_sim no)
