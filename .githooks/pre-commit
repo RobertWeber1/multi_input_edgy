@@ -1,7 +1,7 @@
 #!/bin/sh
 
-kicad-cli-nightly sch export pdf --output doc/multi_input_edgy.pdf  multi_input_edgy.kicad_sch
+kicad-cli sch export pdf --output doc/multi_input_edgy.pdf  multi_input_edgy.kicad_sch
 git add doc/multi_input_edgy.pdf
 
-kicad-cli-nightly pcb render --output  doc/multi_input_edgy.png --background opaque  multi_input_edgy.kicad_pcb
+kicad-cli pcb render --output  doc/multi_input_edgy.png --background opaque  multi_input_edgy.kicad_pcb
 git add doc/multi_input_edgy.png

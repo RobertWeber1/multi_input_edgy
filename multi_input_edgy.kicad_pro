@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -69,6 +69,7 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -80,7 +81,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -91,9 +92,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -105,10 +108,13 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -121,6 +127,7 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -138,10 +145,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -459,7 +467,7 @@
   },
   "meta": {
     "filename": "multi_input_edgy.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -599,13 +607,13 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -660,6 +668,18 @@
           "label": "Display",
           "name": "Display",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Name",
+          "name": "Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -696,7 +716,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -712,31 +732,31 @@
   "sheets": [
     [
       "6245d815-3a0a-4de6-9134-28f5571821de",
-      "Stammblatt"
+      "Root"
     ],
     [
       "2f847f2b-44e1-4b01-8806-4ee445d9979e",
       "4xInput"
     ],
     [
-      "036cff62-e137-4ca3-a5ab-ba4d49211600",
-      "isolated_input"
+      "8e3cb3be-0640-47ef-a44f-e36d2b373ae5",
+      "In1"
     ],
     [
-      "4c9248e3-5311-42f4-8e48-146a566f42fa",
-      "isolated_input1"
+      "0402c871-0ff3-458d-8949-ff2712c3589f",
+      "In2"
     ],
     [
-      "bd25a8d3-cc96-44db-9ab7-a39e0aec573c",
-      "isolated_input2"
+      "073d8514-faf9-4436-ac0a-ac483e6a6613",
+      "In0"
     ],
     [
-      "e6b33b4e-cb11-4e55-91b7-372c213eef5e",
-      "isolated_input3"
+      "24ad12b5-c4c9-4185-92ab-429061560b27",
+      "In3"
     ]
   ],
   "text_variables": {
-    "BoardName": "4xMultiInput",
-    "Version": "V1.1"
+    "BoardName": "InputEdgy",
+    "BoardRevision": "V1.2"
   }
 }
